@@ -1,9 +1,9 @@
 import "./App.css";
-import Weather from "./components/Weather/Weather";
+import Machina from "./components/Machina/Machina.js";
 function App() {
     return (
-        <div className="container">
-            <Weather />
+        <div>
+            <Machina s1="🍑" s2="🍈" s3="🍅" />
         </div>
     );
 }
